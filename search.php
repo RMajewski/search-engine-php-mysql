@@ -5,17 +5,22 @@
         <style type="text/css">
             body {
                 background: CornflowerBlue;
-                margin-top: -80px;
+                margin-top: -100px;
             }
             
             form {
                 margin: 25%;
+            }
+            
+            form img {
+                height: 125px;
             }
         </style>
     </head>
     
     <body>
         <form action="result.php" method="post">
+            <img src="images/logo.jpeg" />
             <input type="text" name="user_query" size="80" placeholder="write something to search" />
             <input type="submit" name="search" value="Search Now" />
         </form>
